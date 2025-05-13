@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "roasted_mushrooms",
+	"version": "1",
+	"name": "Roasted Mushrooms",
+	"description": "Roast mushrooms to eat them.",
+	"authors": [
+		"Android789515"
+	],
+	"contact": {
+		"homepage": "https://github.com/Android789515/roasted_mushrooms",
+		"sources": "https://github.com/Android789515/roasted_mushrooms"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/roasted_mushrooms/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"android789515.roasted_mushrooms.RoastedMushrooms"
+		],
+		"client": [
+			"android789515.roasted_mushrooms.RoastedMushroomsClient"
+		]
+	},
+	"mixins": [
+		"roasted_mushrooms.mixins.json",
+		{
+			"config": "roasted_mushrooms.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
