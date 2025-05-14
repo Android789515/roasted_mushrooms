@@ -2,6 +2,7 @@ package android789515.roasted_mushrooms;
 
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
+import net.minecraft.item.FoodComponent;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
 import net.minecraft.registry.Registries;
@@ -31,7 +32,14 @@ public class RoastedMushrooms implements ModInitializer {
          Identifier.of(MOD_ID, "roasted_brown_mushroom")
       );
 
-      final Item ROASTED_BROWN_MUSHROOM = new Item(new Item.Settings());
+      final Item ROASTED_BROWN_MUSHROOM = new Item(
+         new Item.Settings().food(
+            new FoodComponent.Builder()
+               .saturationModifier(.1f)
+               .hunger(1)
+               .build()
+         )
+      );
       
       Registry.register(
             Registries.ITEM,
@@ -44,7 +52,14 @@ public class RoastedMushrooms implements ModInitializer {
          Identifier.of(MOD_ID, "roasted_red_mushroom")
       );
 
-      final Item ROASTED_RED_MUSHROOM = new Item(new Item.Settings());
+      final Item ROASTED_RED_MUSHROOM = new Item(
+         new Item.Settings().food(
+            new FoodComponent.Builder()
+            .saturationModifier(.1f)
+            .hunger(1)
+            .build()
+         )
+      );
 
       Registry.register(
          Registries.ITEM,
