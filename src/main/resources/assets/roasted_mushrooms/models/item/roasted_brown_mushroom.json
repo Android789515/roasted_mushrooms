@@ -1,0 +1,6 @@
+{
+   "parent": "minecraft:item/generated",
+   "textures": {
+      "layer0": "roasted_mushrooms:item/roasted_brown_mushroom"
+   }
+}
