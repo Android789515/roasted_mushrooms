@@ -1,0 +1,8 @@
+{
+   "type": "minecraft:campfire_cooking",
+   "ingredient": {
+      "item": "minecraft:brown_mushroom"
+   },
+   "result": "roasted_mushrooms:roasted_brown_mushroom",
+   "cookingtime": 400
+}

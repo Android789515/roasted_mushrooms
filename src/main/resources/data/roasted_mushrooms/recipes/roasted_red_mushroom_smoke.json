@@ -1,0 +1,9 @@
+{
+   "type": "minecraft:smoking",
+   "category": "food",
+   "ingredient": {
+      "item": "minecraft:red_mushroom"
+   },
+   "result": "roasted_mushrooms:roasted_red_mushroom",
+   "cookingtime": 200
+}

@@ -1,0 +1,9 @@
+{
+   "type": "minecraft:smelting",
+   "category": "food",
+   "ingredient": {
+      "item": "minecraft:brown_mushroom"
+   },
+   "result": "roasted_mushrooms:roasted_brown_mushroom",
+   "cookingtime": 200
+}
