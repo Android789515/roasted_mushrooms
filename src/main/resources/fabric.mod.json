@@ -11,7 +11,7 @@
 		"homepage": "https://github.com/Android789515/roasted_mushrooms",
 		"sources": "https://github.com/Android789515/roasted_mushrooms"
 	},
-	"license": "CC0-1.0",
+	"license": "Unlicense",
 	"icon": "assets/roasted_mushrooms/icon.png",
 	"environment": "*",
 	"entrypoints": {
