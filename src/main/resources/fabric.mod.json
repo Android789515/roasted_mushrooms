@@ -1,7 +1,7 @@
 {
 	"schemaVersion": 1,
 	"id": "roasted_mushrooms",
-	"version": "1",
+	"version": "1.0.1",
 	"name": "Roasted Mushrooms",
 	"description": "Roast mushrooms to eat them.",
 	"authors": [
