@@ -35,8 +35,8 @@ public class RoastedMushrooms implements ModInitializer {
       final Item ROASTED_BROWN_MUSHROOM = new Item(
          new Item.Settings().food(
             new FoodComponent.Builder()
-               .saturationModifier(.1f)
-               .hunger(1)
+               .saturationModifier(.2f)
+               .hunger(2)
                .build()
          )
       );
